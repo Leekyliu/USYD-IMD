@@ -7,18 +7,26 @@
 The username and password must be correct, otherwise there will show “User does not exist!”.
 
 ### Registration
+![image](https://github.com/Leekyliu/USYD-IMD/blob/master/src/main/webapp/resources/images/%E6%88%AA%E5%B1%8F2019-11-15%E4%B8%8B%E5%8D%886.56.39.png)
+
 Username must be unique, it will be used once user need to login the website that will not show on the website. Password must be 8 digit which can be edited in Account Setting, once the user needs to change the password, he will need to double confirm it.The Email address must be Usyd Email address (@uni.sydney.edu.au).The system will not display the gender by default, the user can change gender option or just leave it.
 
 ### User profile
+![image](https://github.com/Leekyliu/USYD-IMD/blob/master/src/main/webapp/resources/images/%E6%88%AA%E5%B1%8F2019-11-15%E4%B8%8B%E5%8D%886.57.43.png)
+
 Users can edit the account password, change the profile photo (the system will automatically create a profile photo for users or they can DIY the photo by purchasing Redemption Code). Users also can edit the nickname and motto (If users do not do any change in motto, then the system will automatically show “I am an empty person.”)
 
 ### Search Bar 
 For users searching topic (Unit code), if it does not in the system, the website will show “Topic doesn’t Exist.” Discussion board Search Bar is for users searching comments. It will show “No Such Thread!” if the comment doesn’t exist.
 
 ### Topic List 
+![image](https://github.com/Leekyliu/USYD-IMD/blob/master/src/main/webapp/resources/images/%E6%88%AA%E5%B1%8F2019-11-15%E4%B8%8B%E5%8D%886.56.59.png)
+
 Users can see all topics (Unit code) on the main page. The web staff can use the staff page to add or delete the topic and the main page will search the database and show all valid topics. It uses the iframe to make the page looks unified.
 
 ### Thread List
+![image](https://github.com/Leekyliu/USYD-IMD/blob/master/src/main/webapp/resources/images/%E6%88%AA%E5%B1%8F2019-11-15%E4%B8%8B%E5%8D%886.57.58.png)
+
 When users click into a certain topic they can see comments of other users about this topic. They can choose to comment on certain threads or create a new thread themselves. It uses the iframe to make the page looks unified.
 ### User Authentication
 When the page loading, it will check the users’ cookies if the cookie doesn’t exist it will pop up an alert box to ask users to log in first which means users cannot use the URL to go to a certain page directly.
