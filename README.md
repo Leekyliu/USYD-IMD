@@ -3,6 +3,7 @@
 ## Users
 ### Login
 ![image](https://github.com/Leekyliu/USYD-IMD/blob/master/src/main/webapp/resources/images/%E6%88%AA%E5%B1%8F2019-11-15%E4%B8%8B%E5%8D%886.55.44.png)
+
 The username and password must be correct, otherwise there will show “User does not exist!”.
 
 ### Registration
